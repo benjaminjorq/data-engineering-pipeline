@@ -70,5 +70,7 @@ clean_df = transform(df)
 agg_df = aggregate(clean_df)
 load(clean_df, agg_df)
 
+print("hola mundo")
+
 validate("clean_path.csv")
 validate("agg_path.csv")
